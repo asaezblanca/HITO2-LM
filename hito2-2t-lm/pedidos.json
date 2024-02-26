@@ -1,0 +1,118 @@
+{
+    "pedidos": [
+      {
+        "year": 2021,
+        "trimestres": [
+          {
+            "trimestre": 1,
+            "pedidos": [
+              {
+                "cliente": {
+                  "nombre": "Juan",
+                  "apellidos": "Pérez",
+                  "telefono": "123456789",
+                  "direccion": {
+                    "calle": "Calle 1",
+                    "ciudad": "Madrid",
+                    "codigo_postal": "28001",
+                    "provincia": "Madrid"
+                  },
+                  "correo_electronico": "juan.perez@example.com"
+                },
+                "fecha_inclusion": "2021-01-01",
+                "pedido": {
+                  "numero_pedido": 1,
+                  "fecha_compra": "2021-01-01",
+                  "fecha_entrega": "2021-01-05",
+                  "total_factura": 100,
+                  "productos": [
+                    {
+                      "nombre": "Producto 1",
+                      "referencia": "REF1",
+                      "precio": 50,
+                      "unidades": 2
+                    },
+                    {
+                      "nombre": "Producto 2",
+                      "referencia": "REF2",
+                      "precio": 50,
+                      "unidades": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "cliente": {
+                  "nombre": "María",
+                  "apellidos": "García",
+                  "telefono": "987654321",
+                  "direccion": {
+                    "calle": "Calle 2",
+                    "ciudad": "Madrid",
+                    "codigo_postal": "28002",
+                    "provincia": "Madrid"
+                  },
+                  "correo_electronico": "maria.garcia@example.com"
+                },
+                "fecha_inclusion": "2021-01-02",
+                "pedido": {
+                  "numero_pedido": 2,
+                  "fecha_compra": "2021-01-02",
+                  "fecha_entrega": "2021-01-06",
+                  "total_factura": 150,
+                  "productos": [
+                    {
+                      "nombre": "Producto 3",
+                      "referencia": "REF3",
+                      "precio": 100,
+                      "unidades": 1
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "trimestre": 2,
+            "pedidos": [
+            ]
+          },
+          {
+            "trimestre": 3,
+            "pedidos": [
+            ]
+          },
+          {
+            "trimestre": 4,
+            "pedidos": [
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "trimestres": [
+          {
+            "trimestre": 1,
+            "pedidos": [
+            ]
+          },
+          {
+            "trimestre": 2,
+            "pedidos": [
+            ]
+          },
+          {
+            "trimestre": 3,
+            "pedidos": [
+            ]
+          },
+          {
+            "trimestre": 4,
+            "pedidos": [
+            ]
+          }
+        ]
+      }
+    ]
+  }
